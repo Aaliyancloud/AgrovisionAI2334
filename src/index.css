@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Outfit", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-urdu: "Noto Sans Arabic", "Noto Nastaliq Urdu", sans-serif;
+  --color-cream-bg: #faf8f2;
+  --color-cream-surface: #ffffff;
+  --color-sage-soft: #edf5ef;
+  --color-sage-tint: #e2ece5;
+  --color-sage-border: #cbdcd0;
+  --color-forest-dark: #13281c;
+  --color-forest-muted: #3d5947;
+  --color-leaf-green: #15803d;
+  --color-tomato-red: #dc2626;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #faf8f2;
+  color: #13281c;
+}
+
+/* RTL Urdu typography adjustments */
+[dir="rtl"] {
+  font-family: var(--font-urdu);
+  letter-spacing: 0;
+}
+
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] .font-display {
+  font-family: var(--font-urdu);
+  line-height: 1.35;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f1e8;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbdcd0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a3c2ab;
+}

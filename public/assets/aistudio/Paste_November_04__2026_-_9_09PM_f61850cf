@@ -1,0 +1,1025 @@
+# MASTER WEBSITE DEVELOPMENT PROMPT: AGROVISION AI
+## Build a Fully Animated, 3D, Scroll-Driven AI Plant Disease Detection Experience
+
+### 1. YOUR ROLE
+
+Act as an elite multidisciplinary team consisting of:
+
+- A senior creative director.
+- An award-winning UI/UX designer.
+- A professional 3D web experience designer.
+- A Three.js / WebGL developer.
+- A senior frontend engineer.
+- An AI and machine-learning integration engineer.
+- A responsive web design and performance specialist.
+
+Your task is to transform my existing project, **AgroVision AI**, into an exceptionally polished, futuristic, immersive, fully animated website.
+
+Do not create a generic landing page. Do not simply add a few fade-in effects to an ordinary HTML template. I want a complete, cinematic, interactive web experience in which scrolling, 3D objects, transitions, typography, backgrounds, and interface components work together to tell the story of the project.
+
+---
+
+# 2. PROJECT IDENTITY AND PURPOSE
+
+**Project Name:** AgroVision AI
+
+**Tagline:** Smarter Detection. Healthier Plants.
+
+**Project Category:** Artificial Intelligence, Smart Agriculture, Plant Disease Detection, and Agricultural Technology.
+
+**Primary Purpose:**
+
+AgroVision AI is an AI-powered tomato leaf disease detection project. Its primary purpose is to help users identify potential diseases affecting tomato plants by uploading an image of a tomato leaf or using their device's camera.
+
+The system processes the image through an existing machine-learning model and displays the model's prediction.
+
+The website should make this process understandable, accessible, visually impressive, and easy to demonstrate.
+
+### Main objectives
+
+1. Detect potential tomato leaf diseases using the integrated AI model.
+2. Allow users to upload tomato leaf photographs.
+3. Support live camera-based image capture where the browser and device permit it.
+4. Display detection results in a clear and understandable format.
+5. Present relevant precautions and plant-care information where supported by the existing knowledge base.
+6. Explain how AI contributes to smarter agriculture.
+7. Present the project professionally during a school STEAM Exhibition.
+8. Work on desktop computers, laptops, tablets, and mobile phones.
+9. Support an online deployment through GitHub Pages and a local exhibition setup.
+
+**Important:** Tomato leaf disease detection is the core feature. Everything else must support this purpose rather than distract from it.
+
+---
+
+# 3. THE MOST IMPORTANT DESIGN REQUIREMENT: FULL ANIMATION
+
+This is a non-negotiable requirement:
+
+**THE ENTIRE WEBSITE MUST BE A FULLY ANIMATED, CINEMATIC, SCROLL-DRIVEN, INTERACTIVE 3D WEB EXPERIENCE. I DO NOT WANT A STATIC WEBSITE WITH ONLY A FEW SIMPLE ANIMATIONS.**
+
+The experience must include:
+
+- Scroll-triggered animations.
+- Scroll-linked animations.
+- 3D animated objects.
+- Interactive 3D elements.
+- Smooth camera movements.
+- Parallax scrolling.
+- Animated backgrounds.
+- Cinematic section transitions.
+- Animated typography.
+- Animated cards and interface elements.
+- Interactive hover effects.
+- Smooth page transitions where appropriate.
+- Dynamic loading and scanning effects.
+- Animated illustrations and diagrams.
+- Depth, perspective, lighting, and layered compositions.
+
+The website should feel like an advanced technology product presentation.
+
+### Animation philosophy
+
+Animations should communicate something meaningful.
+
+For example:
+- A wilted tomato plant can gradually transform into a healthy plant.
+- A tomato leaf can become the central subject of a 3D scanning sequence.
+- A scanning beam can move across a leaf.
+- AI processing can be visualized through animated data particles.
+- Disease information can appear through a cinematic transition.
+- The final result can emerge as a polished dashboard.
+
+Do not use random animations merely to make the website look busy.
+
+---
+
+# 4. VISUAL DESIGN DIRECTION
+
+Create a futuristic agricultural technology aesthetic.
+
+### Color palette
+
+Use a sophisticated combination of:
+
+- Deep forest green.
+- Dark emerald.
+- Almost-black backgrounds.
+- Fresh leaf green.
+- Soft mint highlights.
+- Natural tomato red.
+- Subtle white typography.
+- Carefully controlled luminous green accents.
+
+Avoid excessive neon colors, excessive gradients, childish illustrations, and generic startup-template styling.
+
+### Visual atmosphere
+
+The website should combine:
+
+- Premium technology branding.
+- Smart agriculture.
+- Cinematic environmental storytelling.
+- Modern AI interfaces.
+- Realistic plant imagery.
+- Immersive 3D scenes.
+- Glassmorphism used selectively.
+- Premium editorial typography.
+
+### Typography
+
+Use modern, highly readable typography.
+
+Create a clear visual hierarchy between:
+- Main headings.
+- Section titles.
+- Supporting descriptions.
+- Navigation.
+- Labels.
+- Buttons.
+- Detection results.
+- Technical information.
+
+Use large, cinematic headings in important sections, but keep functional interface text readable.
+
+---
+
+# 5. HERO SECTION: THE FIRST IMPRESSION
+
+Create a visually extraordinary opening screen.
+
+### Main content
+
+Brand: AgroVision AI
+
+Main headline:
+
+**Smarter Detection. Healthier Plants.**
+
+Supporting text:
+
+"Discover a smarter way to understand tomato plant health. AgroVision AI uses artificial intelligence to analyze tomato leaf images and identify potential disease patterns."
+
+Primary button:
+
+**Scan a Tomato Leaf**
+
+Secondary action:
+
+**Explore the Technology**
+
+### 3D hero experience
+
+Create a large, detailed 3D tomato plant as the main visual focus.
+
+The plant should include:
+- A realistic stem.
+- Multiple leaves.
+- Visible leaf veins.
+- Natural leaf shapes.
+- Tomato fruits.
+- Realistic materials and lighting.
+- Subtle environmental movement.
+
+The plant must not look like a flat illustration.
+
+### Hero animations
+
+1. The page initially opens with a cinematic loading transition.
+2. The AgroVision AI logo appears smoothly.
+3. The headline reveals itself using carefully timed text animations.
+4. The 3D tomato plant enters the scene with a smooth camera movement.
+5. Leaves move gently as though affected by a light breeze.
+6. Small particles float around the plant.
+7. Subtle lighting changes create depth.
+8. A scroll indicator encourages the visitor to explore.
+
+### Interactive elements
+
+- The 3D plant responds subtly to cursor movement.
+- Leaves can respond to hover interactions.
+- The plant should rotate slowly or respond to drag interactions.
+- Buttons should have refined hover and click animations.
+- Navigation should remain easy to use.
+
+The opening screen must immediately communicate that this is an AI-powered agricultural technology project.
+
+---
+
+# 6. CINEMATIC SCROLL STORYTELLING
+
+The website should not feel like several unrelated sections stacked vertically.
+
+It should feel like one continuous story.
+
+Implement a scroll-driven experience where each section transitions naturally into the next.
+
+### Suggested storytelling sequence
+
+**Scene 1: The Agricultural Challenge**
+
+Introduce plant diseases and the importance of identifying them.
+
+Use a 3D tomato plant with a visually differentiated unhealthy leaf.
+
+**Scene 2: The Problem**
+
+Explain how identifying plant health issues can be difficult without suitable support.
+
+Use animated illustrations and visual storytelling.
+
+**Scene 3: Introducing AgroVision AI**
+
+Introduce the project and its purpose.
+
+Transition from the problem scene into a futuristic AI-powered agricultural environment.
+
+**Scene 4: How AI Works**
+
+Show the journey of a tomato leaf image through the detection system.
+
+**Scene 5: Scan Experience**
+
+Transition into the actual working detection interface.
+
+**Scene 6: Detection Results**
+
+Demonstrate how a prediction and relevant information are presented.
+
+**Scene 7: Precautions and Plant Care**
+
+Show how users can understand the result and explore appropriate plant-care guidance.
+
+**Scene 8: Technology Behind the Project**
+
+Explain the technology and architecture in accessible language.
+
+**Scene 9: Final Experience**
+
+Return to the healthy tomato plant and invite visitors to try AgroVision AI.
+
+Each scene should have its own visual identity while maintaining a consistent design language.
+
+---
+
+# 7. INTERACTIVE 3D TOMATO PLANT MODULE
+
+This is one of the most important visual components.
+
+Create an interactive 3D tomato plant experience.
+
+### Required features
+
+- Realistic 3D tomato plant.
+- Individual leaf geometry where practical.
+- Natural materials and lighting.
+- Subtle leaf movement.
+- Mouse-responsive camera movement.
+- Interactive highlighting of selected leaves.
+- Smooth camera rotation.
+- Depth and perspective.
+- Scroll-controlled camera movement.
+
+### Healthy and unhealthy plant transformation
+
+Create a cinematic visual transformation:
+
+1. Initially display a tomato plant with visibly unhealthy-looking leaves.
+2. As the user scrolls, focus the camera on the plant.
+3. Highlight a leaf.
+4. Introduce a subtle AI scanning effect.
+5. Show the leaf changing visually into a healthy-looking representation.
+6. Finish with a healthy green tomato plant.
+
+This is a conceptual visual demonstration, not a real treatment process. Do not imply that AI scanning physically cures plants.
+
+Use Three.js or an equivalent WebGL approach.
+
+If a suitable 3D asset is unavailable, create the scene using procedural geometry or an appropriate lightweight model. Do not use an unrelated stock 3D object.
+
+---
+
+# 8. CORE FUNCTIONALITY: AI TOMATO LEAF DISEASE DETECTION
+
+This is the most important practical feature of the entire project.
+
+**Do not sacrifice actual functionality for visual effects.**
+
+The existing AI detection system must remain functional.
+
+### A. Image upload
+
+Allow users to upload a tomato leaf photograph.
+
+Support the image formats permitted by the existing application, including JPG, JPEG, and PNG where supported.
+
+Required behavior:
+
+- File selection.
+- Drag-and-drop support where practical.
+- Image preview.
+- File validation.
+- Invalid file error messages.
+- Clear image button.
+- Replace image option.
+- Upload progress or processing feedback where applicable.
+
+Respect the existing application's image-size restrictions.
+
+### B. Live camera
+
+Provide a camera option.
+
+Required behavior:
+
+- Ask for camera permission through the browser.
+- Start the camera.
+- Display a live camera preview.
+- Allow image capture.
+- Allow the captured image to be reviewed.
+- Allow the user to capture again.
+- Send the selected image into the same AI detection pipeline used by image upload.
+
+Handle camera permission denial gracefully.
+
+Display understandable instructions when a camera is unavailable.
+
+Never make camera access mandatory. Image upload must remain available.
+
+### C. AI scanning animation
+
+When the user starts detection, introduce a cinematic scanning sequence.
+
+The scanning experience may include:
+
+- A highlighted image preview.
+- A moving scanning line.
+- A circular scanning indicator.
+- Leaf boundary highlighting where feasible.
+- Animated processing indicators.
+- Subtle particle effects.
+- A changing processing status.
+
+Use meaningful statuses, such as:
+
+1. Image received.
+2. Preparing image.
+3. Analyzing leaf.
+4. Processing model output.
+5. Preparing result.
+
+Only show statuses that accurately represent the implementation. Do not invent progress percentages when actual processing progress is unavailable.
+
+### D. Real AI inference
+
+Use the existing machine-learning inference pipeline.
+
+The project has used an ONNX-based browser inference implementation with ONNX Runtime Web and the model:
+
+`rodynaemad/plant-disease-dinov2-small`
+
+The current repository and actual model files must be inspected before making any implementation changes.
+
+Preserve the actual model integration.
+
+Requirements:
+
+- Use the existing model and preprocessing logic.
+- Maintain the correct model input dimensions and normalization.
+- Preserve the actual model output interpretation.
+- Do not replace inference with randomly generated results.
+- Do not create a fake prediction system.
+- Do not hardcode a disease as the answer.
+- Do not claim an accuracy percentage without supporting evidence.
+- Do not invent disease classes.
+- Do not present the model as medically or agriculturally infallible.
+
+If the existing model cannot be loaded, display a clear error and offer a retry.
+
+### E. Results dashboard
+
+After successful inference, display the results in a polished interface.
+
+Include the available information:
+
+- Uploaded or captured leaf image.
+- Predicted disease or class label.
+- Confidence score, only where a meaningful model score is available.
+- A clear explanation of the prediction.
+- Relevant precautions.
+- Plant-care guidance from the existing knowledge base, where available.
+
+Make the result easy to understand for a person without a technical background.
+
+A confidence score must not be presented as a guarantee that the prediction is correct.
+
+When the model cannot provide a reliable or supported classification, communicate that limitation instead of manufacturing a result.
+
+### F. Reset and retry
+
+Users must be able to:
+
+- Scan another leaf.
+- Upload another photograph.
+- Capture another image.
+- Retry after an error.
+- Return to the scanning interface.
+
+The detection process must remain easy to repeat.
+
+---
+
+# 9. DISEASE INFORMATION AND PRECAUTIONS
+
+Build a visually engaging disease-information area.
+
+The content must be based on disease classes actually supported by the current model and reliable information already available in the project.
+
+For each supported class, show relevant information where available:
+
+- Disease or class name.
+- Brief explanation.
+- Visible symptoms.
+- Possible impact on the plant.
+- Relevant precautions.
+- Appropriate care guidance.
+
+Use informative cards, illustrations, and expandable panels.
+
+Do not invent scientific claims or recommend chemicals, pesticides, or treatments without reliable supporting information.
+
+Do not show diseases that the integrated model cannot identify.
+
+Avoid unnecessary disease comparison features.
+
+The main purpose is to help visitors understand the detection result.
+
+---
+
+# 10. WEATHER INFORMATION MODULE
+
+The project may include weather information as a secondary feature.
+
+Keep this section visually distinct from the core AI detection feature.
+
+### Possible information
+
+- Current temperature.
+- Humidity.
+- Weather conditions.
+- Relevant agricultural weather context.
+
+Requirements:
+
+- Use a real configured weather API if one already exists.
+- Inspect existing API configuration before modifying it.
+- Do not hardcode fake live weather data.
+- If the API is unavailable, show an informative unavailable state.
+- Provide appropriate loading and error states.
+- Use a clean, compact weather card.
+
+If the existing application has an English/Urdu toggle, preserve it and ensure the weather labels also update correctly.
+
+---
+
+# 11. OPTIONAL AI ASSISTANT
+
+An assistant can be included as an optional supporting feature if it can be implemented properly.
+
+It should help explain the website and relevant plant-care information.
+
+Possible capabilities:
+
+- Explain the purpose of AgroVision AI.
+- Explain how image scanning works.
+- Explain a displayed prediction using available project information.
+- Answer basic questions about tomato plant health.
+- Guide users through the website.
+
+Important technical requirements:
+
+- Do not display a fake working chatbot.
+- Do not invent an API integration.
+- Do not expose private API keys in frontend code.
+- Only implement the assistant if a real and appropriately secured response mechanism is available.
+- Otherwise, keep the feature out of the main interface until it can be implemented correctly.
+
+The assistant must remain secondary to leaf detection.
+
+---
+
+# 12. JUDGE / EXHIBITION DEMONSTRATION MODE
+
+The website is being developed for a school STEAM Exhibition.
+
+Preserve the existing Judge Mode if it exists.
+
+Its purpose is to help judges understand and experience the project quickly.
+
+### Judge Mode should provide
+
+- A clean demonstration experience.
+- A clear explanation of the project's purpose.
+- A guided introduction to the detection process.
+- An easy way to test image scanning.
+- A clear display of the results.
+- Access to project technology information.
+
+If example images are included, label them clearly as demonstration samples.
+
+Never present a predetermined example result as a new AI prediction.
+
+Do not remove functional scanning simply to make the demonstration look polished.
+
+---
+
+# 13. TECHNOLOGY AND PROJECT EXPLANATION SECTION
+
+Create a dedicated section that explains how AgroVision AI works.
+
+Explain the system in simple, visually engaging language.
+
+### Technologies to represent
+
+- HTML.
+- CSS.
+- JavaScript.
+- Python components where used.
+- Machine learning.
+- Computer vision.
+- ONNX.
+- ONNX Runtime Web.
+- The existing image preprocessing pipeline.
+- The existing model integration.
+
+Only include technologies actually present in the repository.
+
+### Visual presentation
+
+Create an animated architecture diagram showing:
+
+**User → Image Upload / Camera → Image Processing → AI Model → Prediction → Result Interface**
+
+Animate the connections between the components.
+
+Add subtle animated data particles moving through the architecture.
+
+The diagram should help visitors understand the project without requiring programming knowledge.
+
+---
+
+# 14. PROJECT GALLERY AND TUTORIAL
+
+Preserve the existing tutorial assets.
+
+The repository has included an asset named:
+
+`assets/tutorial-demo.mp4`
+
+Inspect the actual assets folder before changing paths.
+
+Create a professional tutorial section explaining how to use the website.
+
+The tutorial should cover:
+
+1. Opening AgroVision AI.
+2. Selecting the leaf scan option.
+3. Uploading an image or using the camera.
+4. Starting detection.
+5. Viewing the prediction.
+6. Understanding the available precautions.
+
+### Video requirements
+
+- Use the actual video file.
+- Ensure the relative asset path is correct.
+- Make the video responsive.
+- Provide a suitable poster image if available.
+- Use appropriate video controls.
+- Avoid autoplay with sound.
+- Do not replace the actual tutorial with a broken placeholder.
+
+If additional images exist in the project, inspect and use the relevant ones.
+
+---
+
+# 15. NAVIGATION AND USER EXPERIENCE
+
+Create a premium, responsive navigation system.
+
+Possible navigation links:
+
+- Home.
+- About.
+- How It Works.
+- AI Detection.
+- Technology.
+- Weather.
+- Tutorial.
+
+The primary navigation should remain understandable and accessible.
+
+### Navigation behavior
+
+- Smooth scrolling to sections.
+- Active section indication.
+- Animated menu interactions.
+- Responsive mobile navigation.
+- Smooth closing behavior.
+- Functional calls to action.
+
+Do not overcrowd the navigation.
+
+Keep the Scan a Tomato Leaf action prominent.
+
+---
+
+# 16. MICRO-INTERACTIONS
+
+Every important interactive element should feel carefully designed.
+
+Implement:
+
+- Button hover and click feedback.
+- Animated navigation indicators.
+- Card hover depth.
+- Subtle 3D tilt where appropriate.
+- Image preview transitions.
+- Animated upload states.
+- Scanning animations.
+- Expandable information panels.
+- Smooth dropdowns.
+- Animated toggles.
+- Elegant notifications.
+- Loading skeletons where appropriate.
+- Helpful empty states.
+- Clear error states.
+
+Avoid excessive movement that distracts users or makes the interface difficult to operate.
+
+---
+
+# 17. FULL SCROLL ANIMATION SPECIFICATIONS
+
+Use professional scroll-animation techniques.
+
+Possible tools include:
+
+- GSAP.
+- ScrollTrigger.
+- Three.js.
+- CSS transforms.
+- CSS keyframes.
+- WebGL.
+- Intersection Observer.
+
+Select tools based on the existing project architecture.
+
+### Specific animation requirements
+
+**Hero:** Cinematic reveal, moving 3D plant, floating particles, and animated typography.
+
+**About:** Text and visual elements enter in carefully sequenced layers.
+
+**Problem:** The camera focuses on an unhealthy-looking leaf as the explanation appears.
+
+**Solution:** The plant and surrounding environment transition into the AgroVision AI visual identity.
+
+**How It Works:** Each step enters in sequence with connecting animated lines.
+
+**Detection:** The image preview enters the scanning interface with an animated scan effect.
+
+**Technology:** A system architecture diagram builds itself as the user scrolls.
+
+**Tutorial:** The video and instructional cards enter through smooth transitions.
+
+**Final Section:** The healthy tomato plant returns, with a final cinematic camera movement.
+
+Do not make users scroll through unnecessary pinned sections or excessively long animation sequences.
+
+Scrolling must always feel responsive and controllable.
+
+---
+
+# 18. RESPONSIVE DESIGN
+
+The entire website must work on:
+
+- Desktop computers.
+- Windows laptops.
+- Tablets.
+- Android phones.
+- iPhones.
+
+### Desktop
+
+Use the complete 3D cinematic experience.
+
+### Tablet
+
+Adjust the composition, typography, and animation complexity.
+
+### Mobile
+
+Use a lighter version of the same experience.
+
+Requirements:
+
+- No horizontal overflow.
+- No overlapping text.
+- No broken layouts.
+- Proper image scaling.
+- Functional upload.
+- Camera support where available.
+- Readable detection results.
+- Functional navigation.
+- Touch-friendly controls.
+
+Do not simply shrink the desktop website.
+
+Create a proper responsive experience.
+
+---
+
+# 19. PERFORMANCE REQUIREMENTS
+
+The website must look advanced without becoming unnecessarily heavy.
+
+My exhibition laptop has an Intel Core i5 processor. The exact generation and graphics capability must not be assumed.
+
+Performance is therefore extremely important.
+
+### Requirements
+
+- Optimize 3D geometry and materials.
+- Use compressed textures where suitable.
+- Lazy-load nonessential 3D scenes.
+- Lazy-load below-the-fold media.
+- Avoid unnecessary animation loops.
+- Pause or reduce background animations when appropriate.
+- Avoid excessive particle counts.
+- Avoid large unnecessary JavaScript dependencies.
+- Avoid blocking the AI scanning process with decorative animations.
+- Keep the scanning interface responsive.
+- Provide fallback visuals when WebGL is unavailable.
+- Use reduced-motion preferences as an accessibility option.
+
+### Performance priority
+
+1. Actual AI detection functionality.
+2. Responsive interaction.
+3. Smooth scrolling.
+4. Essential animations.
+5. Additional decorative effects.
+
+The design should adapt to device capability rather than forcing every device to render the most expensive version.
+
+---
+
+# 20. ACCESSIBILITY AND USABILITY
+
+Implement:
+
+- Readable text contrast.
+- Keyboard-accessible controls.
+- Proper button labels.
+- Descriptive image alt text.
+- Visible focus states.
+- Clear status messages.
+- Accessible forms.
+- Sensible animation timing.
+- Reduced-motion support.
+
+Ensure that no important feature depends exclusively on hovering or animation.
+
+The website must remain usable even when animations are reduced or disabled.
+
+---
+
+# 21. BILINGUAL SUPPORT
+
+Preserve the existing English and Urdu language toggle if it is already implemented.
+
+Requirements:
+
+- All important interface labels should have translations.
+- Detection-related messages should be translated.
+- Buttons should be translated.
+- Weather information should be translated where applicable.
+- Navigation should switch languages properly.
+- Changing language must not reset a user's selected image or destroy the scan state.
+
+Use appropriate Urdu typography and text direction when Urdu is selected.
+
+Do not translate programming terms or scientific names incorrectly.
+
+---
+
+# 22. TECHNICAL IMPLEMENTATION AND CODE QUALITY
+
+Before writing code, thoroughly inspect the entire existing project.
+
+### Step 1: Repository inspection
+
+Inspect:
+
+- All HTML files.
+- CSS files.
+- JavaScript files.
+- Python files.
+- Model files.
+- Backend structure.
+- Requirements files.
+- Asset folders.
+- Tutorial media.
+- Existing icons and favicons.
+- GitHub Pages configuration.
+- Local startup scripts.
+- Existing API integrations.
+
+Identify the actual application entry point and determine which features are already working.
+
+### Step 2: Preserve functionality
+
+Do not delete working features.
+
+Do not remove the actual model integration.
+
+Do not rename files unnecessarily.
+
+Do not break image upload, camera access, scanning, language switching, Judge Mode, or existing local deployment.
+
+Do not replace functioning application code with a visual prototype.
+
+### Step 3: Implement the design
+
+Improve the existing project architecture as needed.
+
+Keep components organized.
+
+Separate major responsibilities.
+
+Avoid duplicating code.
+
+Use clear names and meaningful comments.
+
+### Step 4: Verify integration
+
+Check every important button, link, menu, animation, and feature.
+
+Ensure the frontend communicates properly with the actual inference implementation.
+
+Check relative asset paths.
+
+Check that local and online deployments are treated correctly.
+
+### Important deployment distinction
+
+The project has a GitHub Pages deployment target and a local exhibition setup.
+
+GitHub Pages is a static hosting platform. Do not assume it can run a Python backend or host a running Uvicorn server.
+
+Inspect the current application architecture and preserve its existing browser-based inference path for static hosting where possible.
+
+For local deployment, preserve the existing Python/backend startup mechanism and scripts.
+
+Do not introduce paid hosting or unnecessary external services.
+
+Do not expose API keys, private credentials, or secrets.
+
+---
+
+# 23. BRANDING AND FINISHING DETAILS
+
+Create a coherent AgroVision AI identity.
+
+Include:
+
+- Professional favicon.
+- Consistent logo usage.
+- Consistent iconography.
+- Branded buttons.
+- Custom loading animation.
+- Branded error messages.
+- Branded empty states.
+- Consistent footer.
+- Proper browser page title.
+- Meta description.
+- Social sharing metadata where appropriate.
+
+Use the existing project logo and brand assets if they are suitable.
+
+Do not introduce unrelated branding.
+
+---
+
+# 24. FOOTER
+
+Create a professional footer that includes:
+
+**AgroVision AI**
+
+"Smarter Detection. Healthier Plants."
+
+A short project description explaining AI-powered tomato leaf disease detection.
+
+Useful navigation links.
+
+Technology information.
+
+Project attribution, using the actual team or contributor details available in the repository.
+
+Do not invent names, institutional affiliations, awards, or certifications.
+
+---
+
+# 25. FINAL QUALITY CHECKLIST
+
+Before declaring the project complete, verify the following.
+
+### Core functionality
+
+- [ ] Image upload works.
+- [ ] Image preview works.
+- [ ] Camera permission handling works.
+- [ ] Camera capture works where supported.
+- [ ] AI model loads correctly.
+- [ ] Real model inference works.
+- [ ] Results display correctly.
+- [ ] Error handling works.
+- [ ] Reset and rescan work.
+- [ ] Existing precautions are preserved.
+- [ ] Existing English/Urdu toggle works.
+- [ ] Existing Judge Mode works.
+- [ ] Existing tutorial video works.
+- [ ] Existing weather feature works if configured.
+
+### Visual experience
+
+- [ ] The hero section is cinematic.
+- [ ] The 3D tomato plant works.
+- [ ] The healthy/unhealthy plant transition works.
+- [ ] Scroll-triggered animations work.
+- [ ] Scroll-linked storytelling works.
+- [ ] All major sections have appropriate animations.
+- [ ] Navigation transitions work.
+- [ ] Buttons have polished interactions.
+- [ ] The scanning sequence is animated.
+- [ ] The result dashboard looks professional.
+- [ ] The footer is complete.
+
+### Technical quality
+
+- [ ] No broken asset paths.
+- [ ] No console errors.
+- [ ] No broken navigation links.
+- [ ] No fake AI inference.
+- [ ] No unnecessary external dependencies.
+- [ ] No exposed API credentials.
+- [ ] No horizontal overflow.
+- [ ] Responsive layouts work.
+- [ ] Reduced-motion support works.
+- [ ] Local deployment works.
+- [ ] GitHub Pages compatibility is checked.
+- [ ] The website performs reasonably on an Intel i5 laptop.
+
+---
+
+# 26. MOST IMPORTANT FINAL INSTRUCTIONS
+
+I want a premium, futuristic, fully animated, 3D, scroll-driven website.
+
+Do not interpret "fully animated" as simply adding fade-in effects.
+
+I specifically expect a combination of:
+
+- Cinematic scroll storytelling.
+- Interactive 3D environments.
+- Realistic 3D tomato plants.
+- Scroll-controlled camera movements.
+- Animated transitions between sections.
+- Dynamic typography.
+- Interactive interface elements.
+- Professional AI scanning animations.
+- A premium detection dashboard.
+- Carefully designed visual details throughout the experience.
+
+However, the actual AgroVision AI detection functionality must remain the foundation of the project.
+
+**A beautiful website that cannot detect a tomato leaf is a failed result. A working detector inside an ordinary, lifeless template is also not the result I am looking for.**
+
+I want both: a genuinely functional AI plant disease detection application and an extraordinary cinematic website.
+
+### Final execution instructions
+
+1. Inspect the existing repository completely before editing.
+2. Understand the current code and actual functionality.
+3. Make a brief implementation plan.
+4. Implement the complete experience.
+5. Preserve all working functionality.
+6. Test the website after implementation.
+7. Fix errors instead of hiding them.
+8. Provide a summary of the files changed and features implemented.
+9. Clearly identify anything that could not be completed and explain why.
+10. Do not stop after producing a design mockup or static homepage.
+
+**FINAL GOAL: Transform AgroVision AI into a world-class, immersive, 3D agricultural AI experience that looks extraordinary during a STEAM Exhibition while remaining genuinely functional, lightweight, responsive, and accessible.**
