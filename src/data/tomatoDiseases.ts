@@ -499,7 +499,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen C: Oomycete Blight',
     condition: 'Late Blight (Phytophthora infestans)',
     pathogen: 'Fungal',
-    imageUrl: blightLeafImage,
+imageUrl: lateBlightImage,
     description: 'Rapidly spreading water-soaked necrosis with tissue desiccation.'
   },
   {
