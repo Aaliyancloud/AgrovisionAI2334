@@ -140,7 +140,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Monitor regional late-blight forecast alerts and initiate early protection'
       ]
     },
-    sampleImageUrl: blightLeafImage,
+sampleImageUrl: lateBlightImage,
     typicalSeverity: 'Severe',
     contagionRisk: 'Critical'
   },
