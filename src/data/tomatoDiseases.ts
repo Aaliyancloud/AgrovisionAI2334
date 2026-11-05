@@ -188,7 +188,7 @@ sampleImageUrl: lateBlightImage,
         'Soak seeds in hot water (50°C / 122°F for 25 minutes) before sowing'
       ]
     },
-sampleImageUrl: blightLeafImage,
+sampleImageUrl: bacterialSpotImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'High'
   },
