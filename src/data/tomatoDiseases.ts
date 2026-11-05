@@ -508,7 +508,7 @@ imageUrl: lateBlightImage,
     title: 'Specimen D: Bacterial Lesions',
     condition: 'Bacterial Spot (Xanthomonas)',
     pathogen: 'Bacterial',
-    imageUrl: blightLeafImage,
+imageUrl: bacterialSpotImage,
     description: 'Angular dark brown necrotic flecks with micro-perforations.'
   },
   {
