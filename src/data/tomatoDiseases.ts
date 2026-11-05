@@ -3,6 +3,7 @@ import healthyLeafImage from '../assets/images/tomato_leaf_healthy_1793801735546
 import blightLeafImage from '../assets/images/tomato_leaf_blight_1793801736560.jpg';
 import lateBlightImage from '../assets/images/tomato_leaf_late_blight.jpg';
 import bacterialSpotImage from '../assets/images/tomato_leaf_bacterial_spot.jpg';
+import yellowCurlImage from '../assets/images/tomato_leaf_yellow_curl.JPG';
 export const TOMATO_DISEASES: DiseaseInfo[] = [
   {
     id: 'healthy',
@@ -283,7 +284,7 @@ sampleImageUrl: blightLeafImage,
         'Maintain a 2-month host-free crop break between production seasons'
       ]
     },
-sampleImageUrl: blightLeafImage,
+sampleImageUrl: yellowCurlImage,
     typicalSeverity: 'Severe',
     contagionRisk: 'Critical'
   },
@@ -516,7 +517,7 @@ imageUrl: bacterialSpotImage,
     title: 'Specimen E: Viral Curling',
     condition: 'Yellow Leaf Curl Virus',
     pathogen: 'Viral',
-    imageUrl: blightLeafImage,
+imageUrl: yellowCurlImage,
     description: 'Interveinal yellowing with upward cupped leaflet deformation.'
   }
 ];
