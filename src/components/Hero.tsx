@@ -12,31 +12,17 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onScanClick, onExploreTechClick }) => {
   const { t, isUrdu } = useLanguage();
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
-const [typedCount, setTypedCount] = useState(0);
-const [isTyping, setIsTyping] = useState(true);
-
-const animatedHeading = 'Tomato Healthier Plant';
+const [isPlantVisible, setIsPlantVisible] = useState(true);
 
 useEffect(() => {
-  const complete = typedCount === animatedHeading.length;
-  const empty = typedCount === 0;
+  if (isUrdu) return;
 
-  const delay = isTyping
-    ? (complete ? 1300 : 95)
-    : (empty ? 450 : 55);
+  const timer = window.setInterval(() => {
+    setIsPlantVisible(visible => !visible);
+  }, 850);
 
-  const timer = window.setTimeout(() => {
-    if (isTyping && complete) {
-      setIsTyping(false);
-    } else if (!isTyping && empty) {
-      setIsTyping(true);
-    } else {
-      setTypedCount(count => count + (isTyping ? 1 : -1));
-    }
-  }, delay);
-
-  return () => window.clearTimeout(timer);
-}, [typedCount, isTyping]);
+  return () => window.clearInterval(timer);
+}, [isUrdu]);
   return (
     <section className="relative w-full min-h-[90vh] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#faf8f2] via-[#f5f2e8] to-[#faf8f2]">
       {/* Background soft sage glow */}
@@ -57,16 +43,26 @@ useEffect(() => {
             </div>
 
             {/* Main Headline */}
-           <h1
-  className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#13281c] leading-[1.1] text-balance min-h-[2.2em]"
-  aria-label="Tomato Healthier Plant"
->
-  <span aria-hidden="true">
-    {animatedHeading.slice(0, Math.min(typedCount, 6))}
-  </span>
-  {typedCount > 6 && <span aria-hidden="true"> </span>}
-  <span className="text-emerald-700" aria-hidden="true">
-    {typedCount > 7 ? animatedHeading.slice(7, typedCount) : ''}
+         <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#13281c] leading-[1.1] text-balance">
+  {t.hero.headlineStart}
+  <span className="text-emerald-700">
+    {isUrdu ? (
+      t.hero.headlineHighlight
+    ) : (
+      <>
+        Healthier{' '}
+        <span
+          className={`inline-block transition-opacity duration-150 ${isPlantVisible ? 'opacity-100' : 'opacity-0'}`}
+          aria-hidden="true"
+        >
+          Plants.
+        </span>
+        <span
+          className="inline-block h-[0.9em] border-r-[3px] border-emerald-700 ml-1 align-middle animate-pulse"
+          aria-hidden="true"
+        />
+      </>
+    )}
   </span>
 </h1>
             {/* Simple Supporting Text */}
