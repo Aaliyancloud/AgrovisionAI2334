@@ -57,13 +57,18 @@ useEffect(() => {
             </div>
 
             {/* Main Headline */}
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#13281c] leading-[1.1] text-balance">
-              {t.hero.headlineStart}
-              <span className="text-emerald-700">
-                {t.hero.headlineHighlight}
-              </span>
-            </h1>
-
+           <h1
+  className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#13281c] leading-[1.1] text-balance min-h-[2.2em]"
+  aria-label="Tomato Healthier Plant"
+>
+  <span aria-hidden="true">
+    {animatedHeading.slice(0, Math.min(typedCount, 6))}
+  </span>
+  {typedCount > 6 && <span aria-hidden="true"> </span>}
+  <span className="text-emerald-700" aria-hidden="true">
+    {typedCount > 7 ? animatedHeading.slice(7, typedCount) : ''}
+  </span>
+</h1>
             {/* Simple Supporting Text */}
             <p className="text-base sm:text-lg text-[#3d5947] leading-relaxed font-sans max-w-xl">
               {t.hero.description}
