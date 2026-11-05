@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { HeroPlantCanvas } from './3d/HeroPlantCanvas';
 import { ArrowDown, Cpu, ShieldCheck, Activity, Camera, Play, Sparkles } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -12,7 +12,31 @@ interface HeroProps {
 export const Hero: React.FC<HeroProps> = ({ onScanClick, onExploreTechClick }) => {
   const { t, isUrdu } = useLanguage();
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
+const [typedCount, setTypedCount] = useState(0);
+const [isTyping, setIsTyping] = useState(true);
 
+const animatedHeading = 'Tomato Healthier Plant';
+
+useEffect(() => {
+  const complete = typedCount === animatedHeading.length;
+  const empty = typedCount === 0;
+
+  const delay = isTyping
+    ? (complete ? 1300 : 95)
+    : (empty ? 450 : 55);
+
+  const timer = window.setTimeout(() => {
+    if (isTyping && complete) {
+      setIsTyping(false);
+    } else if (!isTyping && empty) {
+      setIsTyping(true);
+    } else {
+      setTypedCount(count => count + (isTyping ? 1 : -1));
+    }
+  }, delay);
+
+  return () => window.clearTimeout(timer);
+}, [typedCount, isTyping]);
   return (
     <section className="relative w-full min-h-[90vh] flex flex-col justify-between overflow-hidden bg-gradient-to-b from-[#faf8f2] via-[#f5f2e8] to-[#faf8f2]">
       {/* Background soft sage glow */}
