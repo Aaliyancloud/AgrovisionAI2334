@@ -2,6 +2,7 @@ import { DiseaseInfo, SampleLeaf } from '../types/disease';
 import healthyLeafImage from '../assets/images/tomato_leaf_healthy_1793801735546.jpg';
 import blightLeafImage from '../assets/images/tomato_leaf_blight_1793801736560.jpg';
 import lateBlightImage from '../assets/images/tomato_leaf_late_blight.jpg';
+import bacterialSpotImage from '../assets/images/tomato_leaf_bacterial_spot.jpg';
 export const TOMATO_DISEASES: DiseaseInfo[] = [
   {
     id: 'healthy',
