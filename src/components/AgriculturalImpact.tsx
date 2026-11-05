@@ -1,7 +1,7 @@
 import React from 'react';
 import { TrendingDown, Clock, ShieldCheck, HeartHandshake, Sprout, ShieldAlert } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-
+import greenhouseImage from '../assets/images/smart_greenhouse_tech_1793801738048.jpg';
 export const AgriculturalImpact: React.FC = () => {
   const { t, isUrdu } = useLanguage();
 
@@ -139,7 +139,7 @@ export const AgriculturalImpact: React.FC = () => {
           <div className="md:col-span-7 bg-white border border-[#cbdcd0] rounded-3xl overflow-hidden flex flex-col justify-between shadow-sm">
             <div className="relative h-64 sm:h-72 w-full overflow-hidden">
               <img
-                src="/src/assets/images/smart_greenhouse_tech_1793801738048.jpg"
+                src={greenhouseImage}
                 alt="Greenhouse tomato plants"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 referrerPolicy="no-referrer"
