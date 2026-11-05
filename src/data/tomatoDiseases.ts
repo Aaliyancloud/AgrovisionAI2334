@@ -44,7 +44,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Sterilize pruning shears between rows using 70% isopropyl alcohol'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_healthy_1793801735546.jpg',
+   sampleImageUrl: healthyLeafImage,
     typicalSeverity: 'None',
     contagionRisk: 'None'
   },
@@ -92,7 +92,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Apply deep organic straw mulch to create a barrier over soil-borne inoculum'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+   sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'High'
   },
@@ -139,7 +139,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Monitor regional late-blight forecast alerts and initiate early protection'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Severe',
     contagionRisk: 'Critical'
   },
@@ -186,7 +186,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Soak seeds in hot water (50°C / 122°F for 25 minutes) before sowing'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'High'
   },
@@ -233,7 +233,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Water exclusively with soaker hoses early in the morning'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'High'
   },
@@ -281,7 +281,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Maintain a 2-month host-free crop break between production seasons'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Severe',
     contagionRisk: 'Critical'
   },
@@ -328,7 +328,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Prune lower suckers to maintain open, breathable canopy structure'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_healthy_1793801735546.jpg',
+sampleImageUrl: healthyLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'Medium'
   },
@@ -376,7 +376,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Avoid excessive nitrogen fertilization which produces soft, sugary leaf tissue'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_healthy_1793801735546.jpg',
+sampleImageUrl: healthyLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'High'
   },
@@ -423,7 +423,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Deep plow or remove all crop debris post-harvest'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Moderate',
     contagionRisk: 'Medium'
   },
@@ -470,7 +470,7 @@ export const TOMATO_DISEASES: DiseaseInfo[] = [
         'Purchase certified tested virus-free seed from reputable seed banks'
       ]
     },
-    sampleImageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    sampleImageUrl: blightLeafImage,
     typicalSeverity: 'Severe',
     contagionRisk: 'Critical'
   }
@@ -482,7 +482,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen A: Prime Foliage',
     condition: 'Healthy Leaf (Control)',
     pathogen: 'Healthy',
-    imageUrl: '/src/assets/images/tomato_leaf_healthy_1793801735546.jpg',
+    	imageUrl: healthyLeafImage,
     description: 'High-chlorophyll control specimen exhibiting intact cuticle and normal trichome density.'
   },
   {
@@ -490,7 +490,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen B: Target Spotting',
     condition: 'Early Blight (Alternaria solani)',
     pathogen: 'Fungal',
-    imageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    imageUrl: blightLeafImage,
     description: 'Classic concentric target ring lesions surrounded by chlorotic yellow halos.'
   },
   {
@@ -498,7 +498,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen C: Oomycete Blight',
     condition: 'Late Blight (Phytophthora infestans)',
     pathogen: 'Fungal',
-    imageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    imageUrl: blightLeafImage,
     description: 'Rapidly spreading water-soaked necrosis with tissue desiccation.'
   },
   {
@@ -506,7 +506,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen D: Bacterial Lesions',
     condition: 'Bacterial Spot (Xanthomonas)',
     pathogen: 'Bacterial',
-    imageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    imageUrl: blightLeafImage,
     description: 'Angular dark brown necrotic flecks with micro-perforations.'
   },
   {
@@ -514,7 +514,7 @@ export const STEAM_EXHIBITION_SAMPLES: SampleLeaf[] = [
     title: 'Specimen E: Viral Curling',
     condition: 'Yellow Leaf Curl Virus',
     pathogen: 'Viral',
-    imageUrl: '/src/assets/images/tomato_leaf_blight_1793801736560.jpg',
+    imageUrl: blightLeafImage,
     description: 'Interveinal yellowing with upward cupped leaflet deformation.'
   }
 ];
